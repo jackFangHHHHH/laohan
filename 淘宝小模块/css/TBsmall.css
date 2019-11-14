@@ -1,0 +1,210 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+			background-color: #f4f4f4;
+			}
+			.out-box{
+				width: 362px;
+				height: 652px;
+				/*background-color: aquamarine;*/
+				margin: 0 auto 0;
+				/*background-image:url(img/QQ图片20191113170305.png);*/
+			}
+			.head-box{
+				width: 362px;
+				height: 181px;
+				background-color: chartreuse;
+				background-image: url(../img/index.png);
+				background-size: 362px 181px;
+			}
+			.head-img{
+				width: 65px;
+				height: 65px;
+				border-radius: 32.5px 32.5px;
+				position: relative;
+				margin: 0px auto 0px;
+				top: 7px;
+				overflow: hidden;
+				background-color: #000000;
+			}
+			.sayhello{
+				display: inline-block;
+				/*position: relative;*/
+				margin-left: 154px;
+				margin-top: 9px;
+			}
+			.head-img img{
+				width: 65px;
+				height: 65px;
+			}
+			.head-button li{
+				list-style-type: none;
+				width: 100px;
+				height: 32px;
+				background-color: #ff5701;
+				float: left;
+				margin: 35px 10px 0px 0px;
+				/*margin-right: 10px;
+				margin-top: ;*/
+				border-radius: 5px;
+				/*text-align: center;*/
+				text-align: center;
+				line-height: 32px;
+				color: white;
+				font-size: 18px;
+				font-weight: 700;
+			}
+			.head-button li:first-child{
+				margin-left: 21px;
+			}
+			.middle-box1{
+				width: 362px;
+				height: 32px;
+				text-align: center;
+				line-height: 32px;
+				background-color: #ffe4dd;
+			}
+			.middle-box1 a{
+				text-decoration: none;
+				color: #ff4400;
+			}
+			.middle-box1 span{
+				margin-left: 30px;
+			}
+			.middle-box2{
+				width: 362px;
+				height: 135px;
+				background-color: white;
+				/*background-color: lightgoldenrodyellow;*/
+			}
+			.middle-box2 li{
+				list-style-type: none;
+				float: left;
+				font-size: 15px;
+				margin-right: 30px;	
+				margin-top: 15px;
+			}
+			.middle-box2 li a{
+				color: black;
+				text-decoration: none;
+			}
+			.first-1{
+				margin-left: 40px;	
+			}
+			.two-ul li{
+				margin-right: 0;
+				font-size: 15px;
+				margin-top: 18px;
+			}
+			.two-ul li:first-child a{
+				color: #ff4400;
+			}
+			.two-ul li a{
+				margin-left: 21px ;
+			}
+			.bottom-box1{
+				width: 362px;
+				height: 192px;
+				background-color: white;
+				/*background-color: deepskyblue;*/
+			}
+			.bottom-box1 li{
+				list-style-type: none;
+				width: 88px;
+				height: 94px;
+				border: solid 1px #f4f4f4;
+				float: left;
+			}
+			.bottom-box1-one,.bottom-box1-two,.bottom-box1-three,.bottom-box1-four,.bottom-box1-five,.bottom-box1-six,.bottom-box1-seven,.bottom-box1-eight{
+				width: 24px;
+				height: 24px;				
+				margin: 15px auto 0px;
+				background-image: url(../img/pics.png);
+				background-repeat: no-repeat;
+				border-radius: 3px;
+				background-position: 0px 0px;
+			}
+			.bottom-box1-two{	
+				background-position: 0px -88px;
+			}
+			.bottom-box1-three{
+				background-position: 0px -44px;
+			}
+			.bottom-box1-four{
+				background-position: 0px -132px;
+			}
+			.bottom-box1-five{
+				background-position: 0px -175px;
+			}
+			.bottom-box1-six{
+				background-position: 0px -220px;
+			}
+			.bottom-box1-seven{
+				background-position: 0px -264px;
+			}
+			.bottom-box1-eight{
+				background-position: 0px -307px;
+			}
+			
+			.call-fei1{
+				margin: 15px 0px 0px 20px;
+			}
+			.call-fei{
+				margin: 15px 0px 0px 29px;
+			}
+			.bottom-box2{
+				width: 362px;
+				height: 95px;
+				background-color: white;
+			}
+			.bottom-box2-one{
+				height: 30px;
+				width: 362px;
+				line-height: 30px;
+				font-family: "仿宋";
+				/*background-color: bisque;*/
+			}
+			.bottom-box2-one h3{
+				margin-left: 20px;
+				font-weight: 700;
+			}
+			.end-more{
+				display: block;
+				float: right;
+				margin-top: -31px;
+				margin-right: 18px;
+				color: black;
+				text-decoration: none;
+			}
+			.end-ul li{
+				list-style-type: none;
+				width: 45px;
+				height: 45px;
+				/*border: solid 1px #f4f4f4;*/
+				float: left;
+				margin-right: 20px;	
+				margin-top: 10px;			
+			}
+			.end-ul li:first-child{
+				margin-left: 30px;
+			}
+			.Limg1,.Limg2,.Limg3,.Limg4,.Limg5{
+				width: 45px;
+				height: 45px;
+				background-image: url(../img/tao.png);
+				background-size: 45px 45px;
+			}
+			.Limg2{
+				background-image: url(../img/tianmao.png);
+			}
+			.Limg3{
+				background-image: url(../img/ju.png);
+			}
+			.Limg4{
+				background-image: url(../img/paylogin.png);
+			}
+			.Limg5{
+				background-image: url(../img/didi.png);
+			}
